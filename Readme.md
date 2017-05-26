@@ -33,7 +33,7 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
     ```
     OUTPUT:
 
-    ![Fig: Output Screen "The Required SQL Query"](images\screenshots\img-03.png)
+    ![Fig: Output Screen "The Required SQL Query"](images/img-03.png)
 * Technology/Software used:
     * MS SQL Server 2017/MS SQL Server Management Studio 2017
 * Showing my work
@@ -46,7 +46,7 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
             PRIMARY KEY (dep_Id)
         );
         ```
-        ![](images/screenshots/img-01.png)
+        ![](images/img-01.png)
     * Likewise, now Employee table was also created. The field `DepartmentId` in Employee table is a Foreign Key; Hence, the reason to create this table later. (*Alternatively, could have altered Employee table later*)
         ```sql
         CREATE TABLE Employee (
@@ -74,7 +74,7 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
 
         * Verifying insertion:
 
-            ![](images\screenshots\img-02.png)
+            ![](images/img-02.png)
 
 
         ```sql
@@ -166,7 +166,7 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
 
 * Output:
 
-    ![](images\screenshots\img-04.png)
+    ![](images/img-04.png)
 * Also available as a [file](q2.txt)
 * **END OF QUESTION-02**
 
