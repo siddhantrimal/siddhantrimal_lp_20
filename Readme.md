@@ -2,13 +2,14 @@
 
 ## NAVIGATION
 Use the table given below to explore the solutions easily. *Click the #REF link to jump to solution.*
-|#REF|NAVIGATE TO|
-|--:|:--|
-|[Question-1](#question-no1)| SQL|
-|[Question-2](#question-no2)| .NET|
-|[Question-3](#question-no3)| Theory: Test Cases|
-|[Question-4](#question-no4)| Theory: Thought Project|
-||
+
+
+|#REF | NAVIGATE TO |
+---: | :---
+[Question-1](#question-no1)| SQL
+[Question-2](#question-no2)| .NET
+[Question-3](#question-no3)| Theory: Test Cases
+[Question-4](#question-no4)| Theory: Thought Project
 
 ---
 
