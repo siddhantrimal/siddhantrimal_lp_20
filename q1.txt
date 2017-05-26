@@ -1,0 +1,84 @@
+/*-----------------------------------------------------------------*/
+/* ANSWER:                                                         */
+/*-----------------------------------------------------------------*/
+/*
+
+SELECT
+    d.dep_Name AS Department,
+    e.emp_Name AS Employee,
+    e.emp_Salary AS Salary
+FROM Employee AS e 
+INNER JOIN Department AS d ON d.dep_Id=e.emp_DepartmentId
+WHERE NOT EXISTS(
+    SELECT null
+    FROM Employee AS innere
+    WHERE innere.emp_DepartmentId=e.emp_DepartmentId
+    AND innere.emp_Salary>e.emp_Salary
+)
+ORDER BY e.emp_DepartmentId;
+
+*/
+/*-----------------------------------------------------------------*/
+/* Copy/Paste this whole doc/Code in MS SQL Server Query to verify*/
+/*-----------------------------------------------------------------*/
+
+CREATE TABLE Department (
+    dep_Id int NOT NULL IDENTITY(1,1),
+    dep_Name varchar(100),
+    PRIMARY KEY (dep_Id)
+);
+CREATE TABLE Employee (
+    emp_Id int NOT NULL IDENTITY(1,1),
+    emp_Name varchar(100),
+    emp_Salary int,
+    emp_DepartmentId int,
+    PRIMARY KEY (emp_Id),
+    FOREIGN KEY (emp_DepartmentId) REFERENCES Department(dep_Id)
+);
+INSERT INTO Department(
+    dep_Name
+)
+VALUES(
+    'IT'
+),
+(
+    'Sales'
+);
+INSERT INTO Employee(
+    emp_Name,
+    emp_Salary,
+    emp_DepartmentId
+)
+VALUES(
+    'Joe',
+    70000,
+    1
+),
+(
+    'Henry',
+    80000,
+    2
+),
+(
+    'Sam',
+    60000,
+    2
+),
+(
+    'Max',
+    90000,
+    1
+);
+SELECT
+    d.dep_Name AS Department,
+    e.emp_Name AS Employee,
+    e.emp_Salary AS Salary
+FROM Employee AS e 
+INNER JOIN Department AS d ON d.dep_Id=e.emp_DepartmentId
+WHERE NOT EXISTS(
+    SELECT null
+    FROM Employee AS innere
+    WHERE innere.emp_DepartmentId=e.emp_DepartmentId
+    AND innere.emp_Salary>e.emp_Salary
+)
+ORDER BY e.emp_DepartmentId;

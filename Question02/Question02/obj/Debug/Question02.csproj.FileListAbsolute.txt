@@ -1,0 +1,6 @@
+C:\XAMPP\htdocs\GIThub\_MINE\siddhantrimal_lp_set20\Question02\Question02\bin\Debug\Question02.exe.config
+C:\XAMPP\htdocs\GIThub\_MINE\siddhantrimal_lp_set20\Question02\Question02\bin\Debug\Question02.exe
+C:\XAMPP\htdocs\GIThub\_MINE\siddhantrimal_lp_set20\Question02\Question02\bin\Debug\Question02.pdb
+C:\XAMPP\htdocs\GIThub\_MINE\siddhantrimal_lp_set20\Question02\Question02\obj\Debug\Question02.csprojResolveAssemblyReference.cache
+C:\XAMPP\htdocs\GIThub\_MINE\siddhantrimal_lp_set20\Question02\Question02\obj\Debug\Question02.exe
+C:\XAMPP\htdocs\GIThub\_MINE\siddhantrimal_lp_set20\Question02\Question02\obj\Debug\Question02.pdb
