@@ -33,7 +33,7 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
     ```
     OUTPUT:
 
-    ![Fig: Output Screen "The Required SQL Query"](images/img-03.png)
+    ![Fig: Output Screen "The Required SQL Query"](https://cloud.githubusercontent.com/assets/18209220/26512863/44affa6c-4288-11e7-9f64-5910bff3b950.PNG)
 * Technology/Software used:
     * MS SQL Server 2017/MS SQL Server Management Studio 2017
 * Showing my work
@@ -46,7 +46,7 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
             PRIMARY KEY (dep_Id)
         );
         ```
-        ![](images/img-01.png)
+        ![](https://cloud.githubusercontent.com/assets/18209220/26512861/44a303ca-4288-11e7-9f04-d45a43711d33.PNG)
     * Likewise, now Employee table was also created. The field `DepartmentId` in Employee table is a Foreign Key; Hence, the reason to create this table later. (*Alternatively, could have altered Employee table later*)
         ```sql
         CREATE TABLE Employee (
@@ -74,7 +74,7 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
 
         * Verifying insertion:
 
-            ![](images/img-02.png)
+            ![](https://cloud.githubusercontent.com/assets/18209220/26512862/44a996d6-4288-11e7-9a7d-340441fd3ab6.PNG)
 
 
         ```sql
@@ -166,7 +166,7 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
 
 * Output:
 
-    ![](images/img-04.png)
+    ![](https://cloud.githubusercontent.com/assets/18209220/26512864/44b502f0-4288-11e7-84c0-bf8afb4b7759.PNG)
 * Also available as a [file](q2.txt)
 * **END OF QUESTION-02**
 
