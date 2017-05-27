@@ -1,0 +1,21 @@
+Steve Banks defines startups as "a temporary organization used to search for a repeatable and scalable business model". According to this definition, it is clear as day that the Agile mode of development should be chosen for the SDLC.
+
+My plans would encompass the usual model of development wrapped around the scope of a T-shirt manufacturing company as follows:
+
+1. Elicitation
+		a. Meetup / JAD Sessions
+		b. Understanding Workflow
+		c. Mock Order
+2. Analysis
+	a. System Analysis
+3. Design
+	a. System Design
+4. Development
+	a. Coding
+	b. Testing
+		i. 	Pilot
+		ii. Usability
+5. Deployment
+6. Maintainance
+
+The aforementioned project guideline will enable the project to complete in feasible time.
