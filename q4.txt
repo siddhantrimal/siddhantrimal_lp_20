@@ -1,4 +1,4 @@
-Steve Banks defines startups as "a temporary organization used to search for a repeatable and scalable business model". According to this definition, it is clear as day that the Agile mode of development should be chosen for the SDLC.
+Steve Banks defines startup as "a temporary organization used to search for a repeatable and scalable business model". According to this definition, it is clear as day that the Agile mode of development should be chosen for the SDLC.
 
 My plans would encompass the usual model of development wrapped around the scope of a T-shirt manufacturing company as follows:
 
