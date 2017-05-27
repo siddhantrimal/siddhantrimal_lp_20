@@ -1,4 +1,4 @@
-# LogPoint Set-20 | Solution by @siddhantrimal
+# LogPoint Set-20 | Solution by [@siddhantrimal](https://siddhantrimal.github.io)
 
 ## NAVIGATION
 Use the table given below to explore the solutions easily. *Click the #REF link to jump to solution.*
