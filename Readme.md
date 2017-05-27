@@ -231,7 +231,7 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
 ### Question no.4   
 * Answer:
 
-    [Steve Banks](https://www.forbes.com/sites/kevinready/2012/08/28/a-startup-conversation-with-steve-blank/) defines startups as "a temporary organization used to search for a repeatable and scalable business model". According to this definition, it is clear as day that the ***Agile mode of development*** should be chosen for the SDLC.
+    [Steve Banks](https://www.forbes.com/sites/kevinready/2012/08/28/a-startup-conversation-with-steve-blank/) defines startup as "a temporary organization used to search for a repeatable and scalable business model". According to this definition, it is clear as day that the ***Agile mode of development*** should be chosen for the SDLC.
 
     My plans would encompass the usual model of development wrapped around the scope of a T-shirt manufacturing company as follows:
     1. Elicitation
