@@ -229,5 +229,28 @@ Use the table given below to explore the solutions easily. *Click the #REF link 
 ---
 
 ### Question no.4   
+* Answer:
+
+    [Steve Banks](https://www.forbes.com/sites/kevinready/2012/08/28/a-startup-conversation-with-steve-blank/) defines startups as "a temporary organization used to search for a repeatable and scalable business model". According to this definition, it is clear as day that the ***Agile mode of development*** should be chosen for the SDLC.
+
+    My plans would encompass the usual model of development wrapped around the scope of a T-shirt manufacturing company as follows:
+    1. Elicitation
+        * Meetup / JAD Sessions
+        * Understanding Workflow
+        * Mock Order
+    1. Analysis
+        * System Analysis
+    1. Design
+        * System Design
+    1. Development
+        * Coding
+        * Testing
+            * Pilot
+            * Usability
+    1. Deployment
+    1. Maintainance
+
+    The aforementioned project guideline will enable the project to complete in feasible time.
+* Also available as a [file](q4.txt)
 
 ---
