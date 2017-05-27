@@ -1,0 +1,49 @@
+/*
+ * Available with more poise and elegance on:
+ * https://github.com/siddhantrimal/siddhantrimal_lp_20/blob/master/Readme.md#question-no3
+ */
+
+Title: Browse Button - validate opening .CSV file and reading content
+
+
+Test Case Id: 001
+
+Description: The user should be able to open and view their .CSV file
+
+Precondition: The user should be shown a browse dialog box that allows selection of .CSV files.
+
+Assumptions: a supported browser is being used, there are some .CSV files in the browse directory.
+
+Test Steps:
+	1. Navigate to the button segment in the webpage or form
+	2. Click on the button
+	3. Select a .CSV file from the list
+	4. Click Open
+
+Expected Result: The browse dialog should show files and after selection, a page or modal displaying the content of the .CSV file should open.
+
+Actual Result: The browse dialog shows all files. On selection of one of the .CSV files, a page displaying the content of the .CSV file opens. On selection of any other file-type, an error occurs.
+
+Pass/Fail: Fail
+
+
+
+Test Case Id: 002
+
+Description: The user should be able to open and view their .CSV file
+
+Precondition: The user should be shown a browse dialog box that only allows selection of .CSV files.
+
+Assumptions: a supported browser is being used, there are some .CSV files in the browse directory.
+
+Test Steps:
+	1. Navigate to the button segment in the webpage or form
+	2. Click on the button
+	3. Select a file from a list of only .CSV files
+	4. Click Open
+
+Expected Result: The browse dialog should only show .CSV files and after selection, a page or modal displaying the content of the file should open.
+
+Actual Result: The browse dialog shows only .CSV files. On selection of one of the files, a page displaying the content of the file opens.
+
+Pass/Fail: Pass
